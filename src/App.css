@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  color: black;
+  margin: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cart {
+  height: 100%;
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 32px;
+  border: solid 1px #dee2e6;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 16px -3px rgba(107, 134, 177, 0.25);
+  /* font-size: 16px; */
+}
+img {
+  width: 150px;
+  height: 150px;
+  margin: 16px 0;
+}
+.cta {
+  all: unset;
+  padding: 10px 10px;
+  border-radius: 25px;
+  background: #3498db;
+  color: white;
+  border: 1px solid #3498db;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cta:hover {
+  background: white;
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+
+.time {
+  color: red;
+}
